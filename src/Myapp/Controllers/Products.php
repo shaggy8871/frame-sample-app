@@ -36,8 +36,17 @@ class Products extends Controller
 
     }
 
-    public function routeDefault(Get $request, Twig $response, \Myapp\Models\Something $else)
+    public function routeNotFound(Url $url, Project $project)
     {
+
+        echo "In routeNotFound";
+
+    }
+
+    public function routeDefault(Get $request, Twig $response, \Myapp\Models\Something $else, Url $url)
+    {
+
+print_r($url);
 
         return $response
             ->setViewFilename("Products/test.html")
@@ -46,10 +55,10 @@ class Products extends Controller
 
     }
 
-    public function routeSubdir(Get $request)
+    public function routeSubdir(\Myapp\Models\Something $request = null)
     {
 
-        return "You are in subdir with get params " . print_r($request->toArray(), true);
+        return "You are in subdir with request param = " . print_r($request, true);
 
     }
 
