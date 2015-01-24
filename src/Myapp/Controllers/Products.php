@@ -2,6 +2,9 @@
 
 namespace Myapp\Controllers;
 
+use Frame\Core\Controller;
+use Frame\Core\Url;
+
 class Products extends Controller
 {
 

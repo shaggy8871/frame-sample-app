@@ -2,6 +2,8 @@
 
 namespace Myapp\Controllers;
 
+use Frame\Core\Project;
+
 class Index
 {
 

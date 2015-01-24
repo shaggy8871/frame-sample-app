@@ -2,7 +2,7 @@
 
 namespace Myapp;
 
-use \Frame\Core\RoutesInterface;
+use Frame\Core\RoutesInterface;
 
 class Routes implements RoutesInterface
 {
