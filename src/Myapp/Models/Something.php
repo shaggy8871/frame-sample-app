@@ -2,6 +2,8 @@
 
 namespace Myapp\Models;
 
+use Frame\Request\Request;
+
 class Something
 {
 

@@ -1,19 +1,19 @@
-FRAME-sample-app
+Frame-sample-app
 ================
 
-Sample app for FRAME, the bare-bones PHP framework.
+Sample app for Frame, the bare-bones PHP framework.
 
 Needs some cleanup of examples
 
 Installation:
 ```
-git clone https://github.com/shaggy8871/FRAME-sample-app.git
+git clone https://github.com/shaggy8871/frame-sample-app.git
 ```
 
 Once installed:
 
 ```
-mv FRAME-sample-app/ <documentroot>
+mv frame-sample-app/ <documentroot>
 cd <documentroot>
 composer install
 ```

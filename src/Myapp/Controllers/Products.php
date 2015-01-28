@@ -4,6 +4,11 @@ namespace Myapp\Controllers;
 
 use Frame\Core\Controller;
 use Frame\Core\Url;
+use Frame\Core\Project;
+use Frame\Request\Get;
+use Frame\Response\Html;
+use Frame\Response\Json;
+use Frame\Response\Twig;
 
 class Products extends Controller
 {
@@ -49,12 +54,9 @@ class Products extends Controller
     public function routeDefault(Get $request, Twig $response, \Myapp\Models\Something $else, Url $url)
     {
 
-print_r($url);
-
         return $response
             ->setViewFilename("Products/test.html")
             ->setViewParams(array('this' => 'is', 'cool' => 'yeah?'));
-//        return array('this' => 'is', 'cool' => 'yeah?');
 
     }
 
