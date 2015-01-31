@@ -37,7 +37,7 @@ class Index extends Controller
     }
 
     /**
-     * @description This is the home page
+     * This is the home page
      */
     public function routeDefault(Get $request, Twig $response)
     {
@@ -50,7 +50,7 @@ class Index extends Controller
     }
 
     /**
-     * @description This is an example about us page
+     * This is an example about us page
      */
     public function routeAbout(Get $request, Twig $response)
     {
@@ -65,7 +65,7 @@ class Index extends Controller
     }
 
     /**
-     * @description This is an example contact us page
+     * This is an example contact us page
      */
     public function routeContact(Get $request, Twig $response)
     {
@@ -80,7 +80,7 @@ class Index extends Controller
     }
 
     /**
-     * @description Demonstration of JSON response type
+     * Demonstration of JSON response type
      */
     public function routeJson(Get $request, Json $response)
     {
