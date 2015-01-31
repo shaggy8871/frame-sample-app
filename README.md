@@ -18,4 +18,10 @@ cd <documentroot>
 composer install
 ```
 
-Replace <documentroot> with the name of your website/vhost root directory. This will install FRAME and dependencies.
+Replace <documentroot> with the name of your website/vhost root directory. This will install Frame and dependencies.
+
+Be sure to set /src/Myapp/Views/cache as world-writable.
+
+```
+chmod -R 777 src/Myapp/Views/cache
+```

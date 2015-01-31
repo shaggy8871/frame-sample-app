@@ -2,11 +2,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/shaggy8871/FRAME"
+            "url": "https://github.com/shaggy8871/frame"
         }
     ],
     "require": {
-        "FRAME/FRAME": "dev-master",
+        "shaggy8871/frame": "dev-master",
         "twig/twig": "~1.0"
     },
     "autoload": {

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ frame.url.rootUri }}/">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li{% if frame.url.requestUri == '/' %} class="active"{% endif %}><a href="{{ urlFor('routeDefault') }}">Home</a></li>
+                <li{% if frame.url.requestUri == '/about' %} class="active"{% endif %}><a href="{{ urlFor('routeAbout') }}">About</a></li>
+                <li{% if frame.url.requestUri == '/contact' %} class="active"{% endif %}><a href="{{ urlFor('routeContact') }}">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
