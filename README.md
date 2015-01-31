@@ -1,7 +1,7 @@
 Frame-sample-app
 ================
 
-Sample app for Frame, the bare-bones PHP framework.
+Sample app for Frame, the flyweight PHP framework.
 
 Installation:
 ```
