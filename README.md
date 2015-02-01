@@ -1,7 +1,7 @@
 Frame-sample-app
 ================
 
-Sample app for Frame, the flyweight PHP framework.
+Sample app for Frame, the lightweight MVC routing framework for PHP.
 
 Installation:
 ```
